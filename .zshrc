@@ -92,9 +92,9 @@ plugins=(
 )
 
 # Zsh configuration
-source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+# source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Bind keys
@@ -122,7 +122,7 @@ zle -N search_directory
 bindkey '^D' search_directory
 
 # adsf - a tool version manager. For proton-ge.
-. "$HOME/.asdf/asdf.sh"
+# . "$HOME/.asdf/asdf.sh"
 
 # wezterm
 alias wezterm='flatpak run org.wezfurlong.wezterm'
