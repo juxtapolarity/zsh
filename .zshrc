@@ -92,9 +92,9 @@ plugins=(
 )
 
 # Zsh configuration
-# source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-# source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Bind keys
